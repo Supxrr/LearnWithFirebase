@@ -11,13 +11,14 @@ import { getFirestore } from "https://www.gstatic.com/firebasejs/10.5.2/firebase
 // appId: Application ID for the Firebase app, it is unique to this application
 
 // STEP 1: Declare Firebase Environment Variables  
+// Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "YOUR-OWN-VARIABLE",
-    authDomain: "YOUR-OWN-VARIABLE",
-    projectId: "YOUR-OWN-VARIABLE",
-    storageBucket: "YOUR-OWN-VARIABLE",
-    messagingSenderId: "YOUR-OWN-VARIABLE",
-    appId: "YOUR-OWN-VARIABLE",
+  apiKey: "AIzaSyAk-oredrCFrQd6brOKOh7Tbn5OdoXe5f8",
+  authDomain: "learnwithfirebase-5a635.firebaseapp.com",
+  projectId: "learnwithfirebase-5a635",
+  storageBucket: "learnwithfirebase-5a635.appspot.com",
+  messagingSenderId: "431341088872",
+  appId: "1:431341088872:web:a101270da5479331c3cbdd"
 };
 
 // initialze firebase in our project by passing in our environment variables to the `initializeApp` method
